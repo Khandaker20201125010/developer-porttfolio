@@ -9,9 +9,11 @@ body{
     background-color: dodgerblue;
     font-size: 20px;
     font-weight: 700;
-    border: 2px;
+    border: 5px;
     color: azure;
     padding : 15px 36px;
+    margin: 10px;
+    justify-content: space-between;
 
 }
 /*nav related styles*/
@@ -45,13 +47,65 @@ nav a {
 }
 .header{
     background-color: white;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+.banner-content{
+    max-width: 900px;
+}
+    
+
 .banner .pp{
     width: 500px;
 height: 650px;
+}
+.banner-gr{
+    font-size: 45px;
+    color:black;
+    margin-bottom: 0;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-discription{
+    color: #181818;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 130px;
+}
+.section-title{
+    color:black ;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+line-height: normal;
+}
+.section-description{
+    color: dimgray;
+ text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
 }
